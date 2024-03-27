@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+    <title>Login page</title>
+</head>
+<body>
+    <!-- NavBar starting -->
+
+    <nav class="navbar">
+        <div>
+            <img src="images.jpg" alt="Picture" class="logo">
+        </div>
+        <div>Welcome to my site</div>
+        <div>
+            <img src="images.jpg" alt="Picture" class="logo">
+        </div>
+    </nav>
+
+    <!-- page body  -->
+
+    <section class="body">
+        <div class="content">
+            <div class="language">
+                <select>
+                    <option value="English">English</option>
+                    <option value="Bangla">Bangla</option>
+                </select>
+            </div>
+            <div class="title">Sign in</div>
+            <form action="#" class="form">
+                <label for="user">User name</label>
+                <input type="text" name="user" id="user" required autofocus>
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass" required>
+                <a href="#" class="forgot">Forgot Password?</a>
+                <input type="submit" value="Sing In">
+            </form>
+            <div class="newUser">
+                <p>New user? <a href="#" id="register">Register</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
